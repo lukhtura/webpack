@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.widget {
+    background-color: oldlace;
+    padding: 10px;
+    max-width: 350px;
+    max-height: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.right-side-weather {
+    width: 200px;
+    text-align: center;
+}
+.icon {
+    width: 100px;
+    height: 100px;
+}
+.left-side-weather {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.big-text {
+    font-size: 24px;
+}
+.city-container {
+    height: 10em;
+    position: relative;
+}
+.city-container p {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
