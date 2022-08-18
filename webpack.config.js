@@ -18,7 +18,7 @@ module.exports = {
             template: './index.html',          //путь к html 
         }),
         new MiniCssExtractPlugin({
-            filename: '[name].css'
+            filename: 'scss.css'
         }),
         new CssMinimizerPlugin()
     ],
